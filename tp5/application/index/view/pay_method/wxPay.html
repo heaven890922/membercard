@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>确认支付</title>
+    {css href = "__WEUI_CSS__/weui.css" }
+    {css href = "__CSS__/weui_add.css" }
+    {css href = "__WEUI_EQ__/example.css" }
+</head>
+<body ontouchstart>
+<div class="content">
+
+    <div class="weui-panel__bd">
+        <div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">订单信息</h4>
+            <p class="weui-media-box__desc">{$data.money}</p>
+        </div>
+    </div>
+
+    <a href="" class="weui-btn weui-btn_primary">确认支付<span id="down_time">(10分00秒)</span></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?php
+
+namespace app\index\controller;
+
+use think\Controller;
+use think\Request;
+
+class Common extends Controller
+{
+    public $apiToken;
+    public function get_api_token()
+    {
+        $str = __CLASS__;
+        print_r($str);
+    }
+}

@@ -1,0 +1,17 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: alexander
+ * Date: 2017-01-16
+ * Time: 14:03
+ */
+
+namespace app\index\model;
+
+
+class Card extends \think\Model
+{
+
+
+
+}

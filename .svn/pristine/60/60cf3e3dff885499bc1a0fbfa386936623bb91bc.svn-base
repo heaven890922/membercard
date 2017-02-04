@@ -1,0 +1,63 @@
+<?php
+
+namespace app\index\controller;
+
+
+
+class Msg
+{
+    private $msg =array();
+
+    /**
+     * @param $code  -返回参数状态码
+     * 200  -处理成功
+     * ---3开头的都是口令校验
+     * 301  -apiToken 校验错误
+     * 302  -apiToken 缺失
+     * ---4开头的都是参数问题
+     * 401  -参数缺失
+     * 402  -参数错误
+     * --5开头的是系统错误
+     * 501 --生成apiToken错误
+     */
+    public function createMsg($code)
+    {
+
+        switch ($code){
+            case 200:
+                $this->msg = ['code'=>$code,'msg'=>'SUCCESS'];
+                break;
+            case 301:
+                $this->msg = ['code'=>$code,'msg'=>'API_TOKEN_ERROR'];
+                break;
+            case 302:
+                $this->msg = ['code'=>$code,'msg'=>'API_TOKEN_LOST'];
+                break;
+            case 401:
+                $this->msg = ['code'=>$code,'msg'=>'PARAM_LOST'];
+                break;
+            case 402:
+                $this->msg = ['code'=>$code,'msg'=>'PARAM_ERROR'];
+                break;
+            case 501:
+                $this->msg = ['code'=>$code,'msg'=>'SYSTEM_TOKEN_CREATE_FAIL'];
+                break;
+            default:
+
+        }
+    }
+
+    /**
+     * @param $msg --自定义返回参数 --数组
+     * @return array --返回参数
+     */
+    public function getMsg($msg = [])
+    {
+        if(!empty($this->msg)){
+            $retMsg =array_merge($this->msg,$msg);
+            return $retMsg;
+        }else{
+            return $msg;
+        }
+    }
+}
