@@ -18,6 +18,8 @@ Route::rule('pay/cashpay','index/PayMethod/cashPay','GET|POST');
 Route::rule('qrcode/create','index/QrCode/create','GET|POST');
 Route::rule('qrcode/check','index/QrCode/check','GET|POST');
 Route::rule('qrcode/test','index/QrCode/test','GET|POST');
+Route::rule('order/finish','index/CardOrder/finish','GET|POST');
+Route::rule('shop/checkPwd','index/Shop/checkPwd','GET|POST');
 /*return [
     '__pattern__' => [
         'name' => '\w+',

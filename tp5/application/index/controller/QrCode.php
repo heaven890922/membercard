@@ -20,8 +20,8 @@ class QrCode extends Common
         $payMethod = Db::query('SELECT GROUP_CONCAT(id) AS methods FROM mc_pay_method WHERE state =1');
         $validate = new Validate(
             [
-                'money'  => 'require|/^[1-9]\d*00$/',
-                'methodID' => 'require|in:'.$payMethod[0]['methods'],
+                'money' => 'require|/^[1-9]\d*00$/',
+                'methodID' => 'require|in:' . $payMethod[0]['methods'],
                 'customerID' => 'require|integer',
                 'shopID' => 'require|integer'
             ],
@@ -33,13 +33,16 @@ class QrCode extends Common
             ]
         );
         if ($validate->check($data)) {
-            $arr = ['remarks' => ''];
-            $data = array_merge($arr, $data);
             $payUrl = new PayMethod();
             $url = $payUrl->getPayUrl($data);
+            if ($url['state']) {
+                $png = make_qrcode($url['url'], 'testQR4', $size = 10, $level = "L");
+                unset($url['url']);
+                $url['png'] = $png;
+            }
             $ret = Msg::getMsg($url);
         } else {
-           $ret = Msg::getMsg(['code' => 401, 'msg' => $validate->getError()]);
+            $ret = Msg::getMsg(['code' => 401, 'msg' => $validate->getError()]);
         }
         pJson($ret);
     }
@@ -57,14 +60,15 @@ class QrCode extends Common
         }
 
         $validate = new Validate([
-            'tel'  => 'require|length:11',
+            'tel' => 'require|length:11',
             'carNum' => 'require'
         ]);
         if ($validate->check($data)) {
             $customer = Customer::get(['tel' => $data['tel']]);
-            if (isset($customer)){
+            if (isset($customer)) {
                 $customerID = $customer->getAttr('coustomid');
                 $car = Car::get(['coustomID' => $customerID, 'carNum' => $data['carNum']]);
+                //p($data['carNum']);
                 if (isset($car)) {
                     pJson(Msg::getMsg(['code' => 200, 'customerID' => $customerID]));
                 } else {
@@ -74,7 +78,7 @@ class QrCode extends Common
                 pJson(Msg::getMsg(802));
             }
         } else {
-            pJson( Msg::getMsg(['code' => 402, 'msg' => $validate->getError()]));
+            pJson(Msg::getMsg(['code' => 402, 'msg' => $validate->getError()]));
         }
 
     }

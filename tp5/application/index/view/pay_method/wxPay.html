@@ -11,6 +11,7 @@
 <div class="content">
 
     <div class="weui-panel__bd">
+        <div id="test" ></div>
         <div class="weui-media-box weui-media-box_text">
             <h4 class="weui-media-box__title">订单信息</h4>
             <p class="weui-media-box__desc">{$data.money}</p>
@@ -19,5 +20,10 @@
 
     <a href="" class="weui-btn weui-btn_primary">确认支付<span id="down_time">(10分00秒)</span></a>
 </div>
+{css href = "__JS__/jquery.min.js" }
+{css href = "__JS__/timer.js" }
+<script type="text/javascript" >
+    $("#down_time").countDown({'duration':300});
+</script>
 </body>
 </html>

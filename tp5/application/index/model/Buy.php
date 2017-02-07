@@ -25,18 +25,18 @@ class Buy extends Model
         $orderNum = $obj['cardOrderNum'];   //订单号
         //$payType = $obj['payType'];     //支付方式
         $total_fee = $obj['quota']; //支付金额
-        $order = Db::table("mc_card_order")->where('cardOrderNum',$orderNum)->find();
+        $order = Db::table("mc_card_order")->where('cardOrderNum', $orderNum)->find();
         if (isset($order)) {
-            if (($order['quota'] - $order['discount']) == $total_fee && $order['payState'] == 'N'){
+            if (($order['quota'] - $order['discount']) == $total_fee && $order['payState'] == 'N') {
                 //客户支付限制
                 $user = new User($userID);
                 if ($user->checkChargeLimit($total_fee)) {
                     return ['state' => true, 'code' => 200];
                 } else {
-                    return ['state' => false, 'code'=>$user->chargeMsgCode];
+                    return ['state' => false, 'code' => $user->chargeMsgCode];
                 }
             } else {
-                return ['state' => false, 'code'=> 701];
+                return ['state' => false, 'code' => 701];
             }
         } else {
             return ['state' => false, 'code' => 702];
@@ -47,22 +47,22 @@ class Buy extends Model
     /**
      * 订单支付完成
      * @param $obj
-     * @param $money        //订单金额（单位分）
+     * @param $money //订单金额（单位分）
      * @return array
      */
     public function finishBuy($obj, $money)
     {
         if (!is_array($obj) || !isset($obj['cardOrderID'])) {
-            $order = Db::table('mc_card_order')->where('cardOrderNum',$obj)->find();
+            $order = Db::table('mc_card_order')->where('cardOrderNum', $obj)->find();
         } else {
             $order = $obj;
         }
 
-        if ($order['payState'] == 'N' && ($money == ($order['realNeedPay'] * 100))){
+        if ($order['payState'] == 'N' && ($money == ($order['realNeedPay'] * 100))) {
 
             //检查客户是否满足支付调教
             $checkRet = $this->checkBuy($order);
-            if(!$checkRet['state']){
+            if (!$checkRet['state']) {
                 return $checkRet;
             }
 
@@ -72,7 +72,7 @@ class Buy extends Model
             $shop = Shop::get(['shopID' => $order['shopID']]);
 
             //检查商户额度是否充足
-            if ($shop['remainQuota'] < $order['quota']){
+            if ($shop['remainQuota'] < $order['quota']) {
                 return ['state' => false, 'code' => 621];
             }
 
@@ -83,14 +83,14 @@ class Buy extends Model
             $card = new Card();
 
             //获取支付方式是否补给商户可提现状态
-            $payMethod = Db::table('mc_pay_method')->where('id',$cardOrder['payType'])->field('supply')->find();
+            $payMethod = Db::table('mc_pay_method')->where('id', $cardOrder['payType'])->field('supply')->find();
             $supplyState = $payMethod['supply'];
 
             //创建商户账户对象
             $shopAccount = ShopAccount::get(['shopID' => $cardOrder['shopID']]);
             //事务开始
             Db::startTrans();
-            try{
+            try {
                 //会员卡生成
                 $card->data([
                     'virtualCardNum' => '20170119175000131',
@@ -106,7 +106,7 @@ class Buy extends Model
                 ]);
                 $card->save();
                 //商户更新
-                if ($supplyState){
+                if ($supplyState) {
                     //补给商户可提现并记录detail
                     $shopAccount->increaseBalance($cardOrder['quota'], $cardOrder['cardOrderID']);
                 } else {
@@ -117,15 +117,15 @@ class Buy extends Model
                 $shop->reduceRemainQuota($cardOrder['quota']);
 
                 //订单状态更新
-                $cardOrder->payState ='Y';
-                $cardOrder->orderState ='FINISH';
+                $cardOrder->payState = 'Y';
+                $cardOrder->orderState = 'FINISH';
                 $cardOrder->payTime = $time;
                 $cardOrder->paid = $cardOrder['quota'] - $cardOrder['discount'];
                 $cardOrder->save();
 
                 Db::commit();
                 return ['state' => true, 'code' => 200];
-            }catch (\Exception $e) {
+            } catch (\Exception $e) {
                 Db::rollback();
                 return ['state' => false, 'code' => 704];
             }

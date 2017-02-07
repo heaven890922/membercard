@@ -196,7 +196,7 @@ class User
                 $shopAccount->increaseBalance($money, $orderID, 'mc_consume_order', 'CARD_PAY', '会员卡消费');
 
                 DB::commit();
-                return ['state' => true, 'code' => 200];
+                return ['state' => true, 'code' => 200, 'orderNum' => $orderNum];
             } catch (\Exception $e) {
                 p($e);
                 Db::rollback();
