@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>信息错误</title>
+    {css href = "__WEUI_CSS__/weui.css" }
+    {css href = "__WEUI_EQ__/example.css" }
+</head>
+<body ontouchstart = "">
+<div class="content">
+    <br>
+    <h1 style="text-align: center;color: red;">操作失败</h1>
+    <div class="weui_msg">
+        <div class="weui_icon_area"><i class="weui_icon_warn weui_icon_msg"></i></div>
+        <div class="weui_text_area">
+            <h2 class="weui_msg_title">{$data.msg}</h2>
+            <p class="weui_msg_desc">{$data.info}</p>
+        </div>
+        <div class="weui_opr_area">
+            <p class="weui_btn_area">
+                <a href="javascript:;" onclick="toindex()" class="weui_btn weui_btn_primary">确定</a>
+            </p>
+        </div>
+
+    </div>
+</div>
+{css href = "__JS__/jquery.min.js" }
+<script type="text/javascript" >
+    function toindex() {
+        location.href="http://wx.xiaochelife.com/jfyxcsh/UserCenter/UserIndex.php";
+    }
+</script>
+</body>
+</html>

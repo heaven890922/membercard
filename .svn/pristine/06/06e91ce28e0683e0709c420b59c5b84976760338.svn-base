@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>支付信息</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<link rel="stylesheet" href="style/css/weui.css"/>
+	<script src="style/js/vue.js"></script>
+	<script src="style/js/vue-resource.js"></script>
+</head>
+<body ontouchstart>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">
+        </h1>
+    </div>
+    <div class="page__bd page__bd_spacing" id="payInfo">
+        <ul>
+            <li>
+                <div class="weui-cell">
+                    <p class="weui-flex__item" style="text-align: center"><a href="javascript:history.go(-1)" style="text-align: left"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;输入充值金额</p>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label class="weui-label">￥</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" type="tel" placeholder="输入100的整数倍" v-model="item.money"/>
+                    </div>
+                </div>
+              	<div class="weui-cells weui-cells_radio">
+              	  	<div class="weui-cell">
+              	  		<p class="weui-flex__item" >选择支付方式：</p>
+              		</div>
+              	    <label class="weui-cell weui-check__label" for="cash">
+              	        <div class="weui-cell__bd">
+              	            <p>发卡人收取现金</p>
+              	        </div>
+              	        <div class="weui-cell__ft">
+              	            <input type="radio" class="weui-check"  value="cash" v-model="payType" id="cash">
+              	            <span class="weui-icon-checked"></span>
+              	        </div>
+              	    </label>
+              	    <label class="weui-cell weui-check__label" for="wechat">
+              	        <div class="weui-cell__bd">
+              	            <p>微信充值</p>
+              	        </div>
+              	        <div class="weui-cell__ft">
+              	            <input type="radio"  value="wechat" v-model="payType" class="weui-check" id="wechat" >
+              	            <span class="weui-icon-checked"></span>
+              	        </div>
+              	    </label>
+              	    <label class="weui-cell weui-check__label" for="alipay">
+              	        <div class="weui-cell__bd">
+              	            <p>支付宝充值</p>
+              	        </div>
+              	        <div class="weui-cell__ft">
+              	            <input type="radio"  value="apliay" v-model="payType" class="weui-check" id="alipay" >
+              	            <span class="weui-icon-checked"></span>
+              	        </div>
+              	    </label>
+              	</div>
+                <div class="weui-cell">
+               		<p weui-flex__item style="color: red;text-align: center">{{result}}</p>
+                </div>
+                <div class="weui-btn-area">
+                <button v-on:click="checkPayInfo" class="weui-btn weui-btn_primary">下一步</button>
+                </div>
+            </li>
+        </ul>
+        <div class="weui-cells__title" style="text-align: center">
+        	<p weui-flex__item>车主单日购买金额上限为1000元</p>
+        	<p weui-flex__item>车主充值最高金额上限为3000元</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	Vue.http.options.emulateJSON = true;
+	var payInfo = new Vue({
+		el:"#payInfo",
+		data:{
+			result:'',
+      payType:'',
+      url:decodeURI(location.href),
+			apiUrl:'http://120.76.251.222:9980/membercard/tp5/public/index.php/qrcode/moneycheck',
+			item:{'apiKey':'e0684fed76aaa6611f436a381491687e'}
+		},
+		methods:{
+			checkPayInfo:function(){
+        var tmp = this.url.split("?")[1]
+        this.item.customerID = tmp.split("&")[0].split("=")[1]
+        this.item.shopID = tmp.split("&")[3].split("=")[1]
+        		if(this.payType==''){
+          			this.result = '请选择支付方式'
+        		};
+				this.$http.post(this.apiUrl,this.item).then((response)=>{
+          if(response.data.code==200){
+            var money = this.item.money
+            var payType = this.payType
+            tmp+='&money='+money+'&payType='+payType
+            window.location.href = encodeURI('checkPassword.html?'+tmp);
+          }else{
+            this.result = response.data.msg
+          }
+				})
+			}
+		}
+	})
+</script>
+</body>
+</html>

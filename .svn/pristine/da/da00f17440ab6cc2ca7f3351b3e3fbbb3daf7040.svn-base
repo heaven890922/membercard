@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>确认支付</title>
+    {css href = "__WEUI_CSS__/weui.css" }
+    {css href = "__WEUI_EQ__/example.css" }
+</head>
+<body ontouchstart = "">
+<div class="content">
+
+    <div class="weui-panel__bd">
+        <div id="test"></div>
+        <div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">订单信息</h4>
+            <p class="weui-media-box__desc">金&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;额：{$data.money}</p>
+            <p class="weui-media-box__desc">商户名称：{$data.shopName}</p>
+            <p class="weui-media-box__desc">订&nbsp;&nbsp;单&nbsp;&nbsp;号：{$data.orderNum}</p>
+            <p class="weui-media-box__desc">创建时间：{$data.orderTime}</p>
+        </div>
+        <input type="hidden" name="web_site" id="web_site" value="{$Think.const.WEB_SITE}">
+    </div>
+    <form name="from1" action="">
+        <input type="hidden" id="money" name="money" value="{$data.money}">
+        <input type="hidden" id="orderNum" name="orderNum" value="{$data.orderNum}">
+        <input type="hidden" id="expireTime" name="expireTime" value="{$data.expireTime}">
+        <input type="hidden" id="remarks" name="remarks" value="{$data.remarks}">
+    </form>
+    <div class="page__bd page__bd_spacing">
+        <button id="ts" class="weui-btn weui-btn_primary" disabled="disabled">确认支付<span id="down_time"></span></button>
+    </div>
+</div>
+{css href = "__JS__/jquery.min.js" }
+{css href = "__JS__/timer.js" }
+<script type="text/javascript">
+    var timestamp = Date.parse(new Date()) / 1000;
+    var expireTime = $("#expireTime").val();
+    $("#down_time").countDown({'duration': (expireTime - timestamp)});
+    $("#ts").click(function () {
+        var money = $("#money").val() *100;
+        var orderNum = $("#orderNum").val();
+        var remarks = $("#remarks").val();
+        if (money==undefined){
+            alert("信息缺失！");return;
+        }
+        if (orderNum==undefined){
+            alert("信息缺失！");return;
+        }
+        location.href="http://wap.oopoo.com.cn/wxpay/wxpay.aspx?total="+money+"&remark="+encodeURI(remarks)+"&ordernum="+orderNum;
+    })
+</script>
+</body>
+</html>

@@ -20,7 +20,7 @@ class Card extends Model
             'money' => $money,
             'BeforeMoney' => $this->currentQuota,
             'orderID' => $orderID,
-            'logType' => '1'
+            'logType' => '0'
         ];
         $cardLog->isUpdate(false)->save($logData);
         $shopAccount = ShopAccount::get(['shopID' => $this->shopID]);

@@ -1,0 +1,15 @@
+<?php
+
+namespace app\index\controller;
+
+use think\Controller;
+
+class ErrorInfo extends Controller
+{
+    public function index()
+    {
+        $data = $this->request->param();
+        $this->assign('data',$data);
+        return $this->fetch();
+    }
+}

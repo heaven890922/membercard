@@ -58,7 +58,7 @@ class Common extends Controller
      */
     public function createToken($className, $secretKey = API_SECRET_KEY)
     {
-        $date = date("Y-m-d", time());
+        $date = date("Ymd", time());
         if(!empty($className)&&!empty($secretKey)) {
             $this->apiToken = md5($className.$date.$secretKey);
             //p($this->apiToken);
@@ -80,5 +80,10 @@ class Common extends Controller
             echo json_encode(['code' => 311, 'msg' => 'api_key错误']) ; exit;
         }
 
+    }
+
+    public function errorInfo($msg, $info)
+    {
+        $this->redirect(WEB_SITE."/index.php/error/msg/$msg/info/$info");
     }
 }

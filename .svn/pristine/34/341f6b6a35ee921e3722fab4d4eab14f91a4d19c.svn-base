@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>加盟商户发卡</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<link rel="stylesheet" href="style/css/weui.css"/>
+	<script src="style/js/vue.js"></script>
+	<script src="style/js/vue-resource.js"></script>
+</head>
+<body ontouchstart>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">
+        </h1>
+    </div>
+    <div class="page__bd page__bd_spacing" id="home">
+        <ul>
+            <li>
+                <div class="weui-cell">
+                    <p class="weui-flex__item" style="text-align: center"><a href="javascript:history.go(-1)" style="text-align: left"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加盟商户发卡 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label v-on:click="goSearch" style="color: grey">搜索</label></p>
+                </div>
+                <div class="weui-cell">
+                    <p class="weui-flex__item" style="text-align: center">{{shopInfo.shopName}} <label style="background-color: red;color: white;">加盟商户</label></p>
+                </div>
+                <div class="weui-cell" style="background-color: #F5F5F5" >
+                    <p class="weui-flex__item" style="color: grey;text-align: center;">发卡人: {{shopInfo.name}} 联系方式:{{shopInfo.phone}}</p>
+                </div>
+                <div class="weui-cells__title" v-on:click="goAllOrder">
+
+                  <p weui-flex__item style="text-align: center">今日发卡收入(元)</p>
+                  <p weui-flex__item style="text-align: center;color: #FF772E;">+{{consumeInfo.consumMoney}}</p>
+                  <p weui-flex__item style="text-align: center">今日发卡单数：{{consumeInfo.consumeNum}}</p>
+                </div>
+                <div class="weui-btn-area">
+                    <button v-on:click="goCheckCustomer" class="weui-btn weui-btn_primary">商户发卡</button>
+                </div>
+                <div class="weui-cells__title">
+                  <p weui-flex__item style="text-align: center">可使用额度：{{shopInfo.remainQuota}}元 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;<a v-bind:href="explainUrl" style="text-decoration: none;color: grey">会员说明</a></p>
+                </div>
+                    <div class="weui-cell">
+                     <div class="weui-cells__title" style="width: 50%" v-on:click='goIncome'>
+                            <p weui-flex__item style="text-align: center;">
+                            今日会员消费收入(元)<br>
+                            <label style="color: #FF772E;">+500</label><br>
+                            今日交易单数：4
+                        </p>
+                     </div>
+                     <div class="weui-cells__title" style="width: 50%">
+                            <p weui-flex__item style="text-align: center;" v-on:click='goOutcome'>
+                            今日会员消费支出(元)<br>
+                            <label style="color: #47ABF3;text-align: center;">-600</label><br>
+                            今日交易单数：5
+                         </p>
+                     </div>
+                </div>
+            </li>
+        </ul>
+
+</div>
+<script type="text/javascript">
+	Vue.http.options.emulateJSON = true;
+	var payInfo = new Vue({
+		el:"#home",
+        data:{
+            result:'',
+            shopInfo:'',
+            consumeInfo:'',
+            Info:'',
+            explainUrl:'explain.html',
+            apiUrl:'http://120.76.251.222:9980/membercard/tp5/public/index.php/shop/info',
+            item:{'apiKey':'e0684fed76aaa6611f436a381491687e','shopID':206}
+        },
+		methods:{
+			goCheckCustomer:function(){
+                var shopID = this.shopInfo.shopID
+                var shopName = this.shopInfo.shopName
+                var name = this.shopInfo.name
+                window.location.href=encodeURI('checkCustomer.html?shopID='+shopID+'&shopName='+shopName+'&name='+name);
+			},
+            getShopInfo:function(){
+                this.$http.post(this.apiUrl,this.item).then((response)=>{
+                    if(response.data.code==200){
+                        this.Info = response.data
+                        this.shopInfo = response.data.data
+                        this.consumeInfo = response.data.data.consumeData
+                    }else{
+                        this.result = response.data.msg
+                    }
+                })
+            },
+            goIncome:function(){
+                var shopID = this.shopInfo.shopID
+                window.location.href='search.html'
+            },
+            goOutcome:function(){
+                var shopID = this.shopInfo.shopID
+                window.location.href='search.html'
+            },
+            goAllOrder:function(){
+                var shopID = this.shopInfo.shopID
+                window.location.href=encodeURI('shopAllotRecord.html?shopID='+shopID)
+            },
+            goSearch:function(){
+                var shopID = this.shopInfo.shopID
+                window.location.href=encodeURI('search.html?shopID='+shopID)
+            }
+		}
+	});
+    payInfo.getShopInfo();
+</script>
+</body>
+</html>

@@ -14,11 +14,16 @@ class Msg
      * ---3开头的都是口令校验
      * 301  -apiToken 校验错误
      * 302  -apiToken 缺失
+     *
      * -31 key错误
      * 311  -api_key 错误
+     *
      * ---4开头的都是参数问题
      * 401  -参数缺失
      * 402  -参数错误
+     *
+     *  -41查询商户
+     * 411  -查询无符合条件的商户
      *
      * --5开头的是系统错误
      * 501 --生成apiToken错误
@@ -27,23 +32,31 @@ class Msg
      *  -60客户充值限制
      * 601  -余额超过3000
      * 602  -单日充值1000限制
+     *
      * -61客户支付限制
      * 611  -单日支付限制
      * 612  -月支付限制
      * 613  -余额不足
+     *
      * -62商户发放限制
      * 621  -商户发放余额不足
+     *
      * -63 商户验证问题
-     * 631 商户支付密码验证错误
+     * 631  -商户支付密码验证错误
+     *
      * --7订单问题
      * 701  -金额错误或者已支付
      * 702  -查无订单，订单号错误
      * 703  -已完成，不能重复结算或者金额不对
      * 704  -系统错误，订单支付失败
+     * 705  -口令校验错误
+     *
      * --8用户错误
      * 801  -用户密码错误
      * 802  -用户不存在
      * 803  -未绑定车牌号码
+     * 804  -车牌已存在，不能绑定
+     * 805  -已绑定车牌，请勿重复绑定
      */
     public static function createMsg($code)
     {
@@ -66,6 +79,9 @@ class Msg
                 break;
             case 402:
                 self::$msg = ['code' => $code, 'msg' => '参数错误'];
+                break;
+            case 411:
+                self::$msg = ['code' => $code, 'msg' => '查询无符合条件的商户'];
                 break;
             case 501:
                 self::$msg = ['code' => $code, 'msg' => '口令生成错误'];
@@ -98,10 +114,13 @@ class Msg
                 self::$msg = ['code' => $code, 'msg' => '查无订单'];
                 break;
             case 703:
-                self::$msg = ['code' => $code, 'msg' => '订单已支付'];
+                self::$msg = ['code' => $code, 'msg' => '订单已支付或金额错误'];
                 break;
             case 704:
                 self::$msg = ['code' => $code, 'msg' => "系统错误，订单支付失败"];
+                break;
+            case 705:
+                self::$msg = ['code' => $code, 'msg' => "口令校验错误"];
                 break;
             case 801:
                 self::$msg = ['code' => $code, 'msg' => '密码错误'];
@@ -111,6 +130,12 @@ class Msg
                 break;
             case 803:
                 self::$msg = ['code' => $code, 'msg' => '未绑定车牌号码'];
+                break;
+            case 804:
+                self::$msg = ['code' => $code, 'msg' => '车牌已存在，不能绑定'];
+                break;
+            case 805:
+                self::$msg = ['code' => $code, 'msg' => '已绑定车牌，请勿重复绑定'];
                 break;
             default:
                 self::$msg = ['code' => 101, 'msg' => '系统错误'];

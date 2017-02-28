@@ -1,0 +1,30 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:76:"D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html";i:1485153341;}*/ ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="__JS__/vue.js"></script>
+</head>
+<body>
+<form name="form1" action="" method="post">
+    <input  type="hidden" name="apiToken" value="7b1cbf25a613b92c4cff420a49a190e5" >
+    <input  type="text" name="name" value="" placeholder="请输入用户名">
+    <input type="text" name="email" value="" placeholder="请输入邮箱">
+    <input type="submit" value="提交">
+</form>
+<div id="app">
+    {{ message }}
+</div>
+
+
+</body>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue1!'
+        }
+    })
+</script>
+</html>

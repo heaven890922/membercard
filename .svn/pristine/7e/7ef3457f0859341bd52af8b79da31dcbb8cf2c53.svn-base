@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>商户发卡记录</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<link rel="stylesheet" href="style/css/weui.css"/>
+	<script src="style/js/vue.js"></script>
+	<script src="style/js/vue-resource.js"></script>
+</head>
+<body ontouchstart>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">
+        </h1>
+    </div>
+    <div class="page__bd page__bd_spacing" id="shopAllotRecord">
+        <ul>
+            <li>
+                <div class="weui-cell">
+                    <p class="weui-flex__item" style="text-align: center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;商户发卡记录 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label v-on:click="goSearch" style="color: grey">搜索</label></p>
+                </div>
+                <div class="weui-cell"></div>
+                <div class="weui-cells__title">
+                  <p weui-flex__item style="text-align: center">发卡总额(元)</p>
+                  <p weui-flex__item style="text-align: center;color: #FF772E;">+ {{wechatMoney+alipayMoney+cashMoney}}</p>
+                  <p weui-flex__item style="text-align: center">发卡单数:{{wechatNum+alipayNum+cashNum}}</p>
+                </div>
+                <div class="weui-cell">
+                     <div class="weui-cells__title" style="width: 33%">
+                        <p weui-flex__item style="text-align: center;">
+                            现金充值(元)<br>
+                            <label style="color: #F42F34;">+{{cashMoney}}</label><br>
+                            充值单数:{{cashNum}}
+                        </p>
+                     </div>
+                     <div class="weui-cells__title" style="width: 34%">
+                        <p weui-flex__item style="text-align: center;">
+                            微信充值(元)<br>
+                            <label style="color: #86C610;text-align: center;">+{{wechatMoney}}</label><br>
+                            充值单数:{{wechatNum}}
+                        </p>
+                     </div>
+                     <div class="weui-cells__title" style="width: 33%">
+                        <p weui-flex__item style="text-align: center;">
+                            支付宝充值(元)<br>
+                            <label style="color: #47ABF3;text-align: center;">+{{alipayMoney}}</label><br>
+                            充值单数:{{alipayNum}}
+                        </p>
+                     </div>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="weui-cell"></div>
+    <div  class="page__bd page__bd_spacing" id="orderInfo">
+        <div class="weui-cell" v-for="list in orderInfo" v-if="show" >
+            <div class="weui-cell__bd">
+                <p class="weui-flex__item"></p>
+                <p class="weui-flex__item">订单编号：{{list.cardOrderNum}}</p>
+                <p class="weui-flex__item">充值时间：{{list.payTime}}</p>
+                <p class="weui-flex__item">充值金额：{{list.quota}}</p>
+                <p class="weui-flex__item">车主手机：{{list.tel}}</p>
+                <p class="weui-flex__item">车牌号码：{{list.carNum}}</p>
+                <p class="weui-flex__item">发卡人：{{list.name}}</p>
+                <p class="weui-flex__item">购卡方式：
+                    <label v-if="list.payMethodName=='微信支付'" style="background-color: #86C610;color: white;">{{list.payMethodName}}</label>
+                    <label v-else-if="list.payMethodName=='支付宝支付'" style="background-color: #56ABE4;color: white;">{{list.payMethodName}}</label>
+                    <label v-else style="background-color: #F42F34;color: white;">{{list.payMethodName}}</label>
+                </p>
+            </div>
+        </div> 
+    </div>
+</div>
+<script type="text/javascript">
+	Vue.http.options.emulateJSON = true;
+	var recordInfo = new Vue({
+		el:"#shopAllotRecord",
+        data:{
+            result:'',
+            wechatNum:'',
+            wechatMoney:'',
+            alipayNum:'',
+            alipayMoney:'',
+            cashNum:'',
+            cashMoney:'',
+            url:decodeURI(location.href),
+            apiUrl:'http://120.76.251.222:9980/membercard/tp5/public/index.php/shop/count',
+            item:{'apiKey':'e0684fed76aaa6611f436a381491687e'}
+        },
+		methods:{
+            getWechatInfo:function(){
+                var tmp = this.url.split("?")[1]
+                this.item.shopID = tmp.split("=")[1]
+                this.item.payType = 1
+                this.$http.post(this.apiUrl,this.item).then((response)=>{
+                    if(response.data.code==200){
+                        this.wechatNum = response.data.data[1].num
+                        this.wechatMoney = response.data.data[1].money
+                        if(this.wechatMoney==null){
+                            this.wechatMoney=0
+                        }
+                    }else{
+                        this.result = response.data.msg
+                    }
+                })
+            },
+            getAlipayInfo:function(){
+                var tmp = this.url.split("?")[1]
+                this.item.shopID = tmp.split("=")[1]
+                this.item.payType = 2
+                this.$http.post(this.apiUrl,this.item).then((response)=>{
+                    if(response.data.code==200){
+                        this.alipayNum = response.data.data[2].num
+                        this.alipayMoney = response.data.data[2].money
+                        if(this.alipayMoney==null){
+                            this.alipayMoney=0
+                        }
+                    }else{
+                        this.result = response.data.msg
+                    }
+                })
+            },
+            getCashInfo:function(){
+                var tmp = this.url.split("?")[1]
+                this.item.shopID = tmp.split("=")[1]
+                this.item.payType = 3
+                this.$http.post(this.apiUrl,this.item).then((response)=>{
+                    if(response.data.code==200){
+                        this.cashNum = response.data.data[3].num
+                        this.cashMoney = response.data.data[3].money
+                        if(this.cashMoney==null){
+                            this.cashMoney=0
+                        }
+                    }else{
+                        this.result = response.data.msg
+                    }
+                })
+            },
+            goSearch:function(){
+                var tmp = this.url.split("?")[1]
+                 var shopID = tmp.split("=")[1]
+                window.location.href=encodeURI('search.html?shopID='+shopID)
+            }
+		}
+	});
+    recordInfo.getWechatInfo();
+    recordInfo.getAlipayInfo();
+    recordInfo.getCashInfo();
+    var orderInfo = new Vue({
+        el:"#orderInfo",
+        data:{
+            orderInfo:'',
+            show:false,
+            url:decodeURI(location.href),
+            apiUrl:'http://120.76.251.222:9980/membercard/tp5/public/index.php/shop/order',
+            item:{'apiKey':'e0684fed76aaa6611f436a381491687e'}
+        },
+        methods:{
+            getOrderInfo:function(){
+                var tmp = this.url.split("?")[1]
+                this.item.shopID = tmp.split("&")[0].split("=")[1]
+                this.item.page = 0
+                this.$http.post(this.apiUrl,this.item).then((response)=>{
+                    if(response.data.code==200){
+                        this.show = true
+                        this.orderInfo = response.data.data
+                    }
+                })
+            }
+        }
+    });
+    orderInfo.getOrderInfo();
+</script>
+</body>
+</html>

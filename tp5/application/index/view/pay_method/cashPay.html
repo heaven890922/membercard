@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>现金支付</title>
+    {css href = "__WEUI_CSS__/weui1.css" }
+    {css href = "__WEUI_EQ__/example.css" }
+</head>
+<body ontouchstart>
+<div class="container" id="container">
+
+    <div class="weui-panel__bd">
+        <div id="test"></div>
+        <div class="weui-media-box weui-media-box_text" style="padding: 25px;">
+            <h4 class="weui-media-box__title">订单信息</h4>
+            <p class="weui-media-box__desc">订&nbsp;&nbsp;单&nbsp;&nbsp;号：{$data.orderNum}</p>
+            <p class="weui-media-box__desc">商户名称：{$data.shopName}</p>
+            <p class="weui-media-box__desc">创建时间：{$data.orderTime}</p>
+            <p class="weui-media-box__desc">金&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;额：{$data.money}</p>
+        </div>
+        <input type="hidden" name="web_site" id="web_site" value="{$Think.const.WEB_SITE}">
+        <input type="hidden" name="key" id="key" value="{$Think.const.API_SECRET_KEY}">
+    </div>
+    <form name="from1" action="" method="post" >
+        <input type="hidden" id="cid" name="customerID" value="{$data.customerID}">
+        <input type="hidden" id="money" name="money" value="{$data.money}">
+        <input type="hidden" id="orderNum" name="orderNum" value="{$data.orderNum}">
+        <input type="hidden" id="expireTime" name="expireTime" value="{$data.expireTime}">
+        <input type="hidden" id="apiKey" name="apiKey" value="e0684fed76aaa6611f436a381491687e">
+        <input type="hidden" id="apiToken" name="apiToken" value="">
+        <div class="page__bd page__bd_spacing">
+            <button id="ts" class="weui-btn weui-btn_primary" disabled="disabled">现金支付<span id="down_time"></span>
+            </button>
+        </div>
+    </form>
+</div>
+{js href = "__JS__/jquery.min.js" }
+{js href = "__JS__/timer.js" }
+{js href = "__JS__/md5.js" }
+<script type="text/javascript">
+    var timestamp = Date.parse(new Date()) / 1000;
+    var m = $("#money");
+    var cid = $("#cid").val();
+    var money = m.val();
+    var orderNum = $("#orderNum").val();
+    var apiKey = $("#apiKey").val();
+    var expireTime = $("#expireTime").val();
+    var web_site = $("#web_site").val();
+
+    var params = {
+        'money': money,
+        'orderNum': orderNum,
+        'expireTime': expireTime
+    };
+    var str = JSON.stringify(params);
+    if (cid == 0) {
+        location.href = "http://wap.oopoo.com.cn/wxinterface/WXAccess.aspx?key=alexander&burl=" + encodeURI('http://120.76.251.222:9980/membercard/transfer.php?str=' + str);
+    }
+    $("#down_time").countDown({'duration': (expireTime - timestamp)});
+    function makeToken() {
+        var secretKey = $("#key").val();
+        var className = 'app\\index\\controller\\PayMethod';
+        var date = new Date();
+        var month = date.getMonth() + 1;
+        var year = date.getFullYear();
+        var day = date.getDate();
+        if (month <= 9) {
+            month = '0' + month;
+        }
+        if (day <= 9) {
+            day = '0' + day;
+        }
+        str = hex_md5(className + year + month + day + secretKey);
+        $("#apiToken").val(str);
+    }
+    makeToken();
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>充值完成</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<link rel="stylesheet" href="style/css/weui.css"/>
+	<script src="style/js/vue.js"></script>
+	<script src="style/js/vue-resource.js"></script>
+</head>
+<body ontouchstart>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">
+        </h1>
+    </div>
+    <div class="page__bd page__bd_spacing" id="successInfo">
+
+        <ul>
+            <li>
+                <div class="weui-cell">
+                    <p class="weui-flex__item" style="text-align: center"><a href="javascript:history.go(-1)" style="text-align: left"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;充值完成</p>
+                </div>
+                <div class="weui-cell">
+                    <p class="weui-flex__item" style="text-align: center">扫码支付完成发卡成功</p>
+                </div>
+                <div class="weui-cells__title">
+                    <p weui-flex__item>发卡店铺：{{shopName}}</p>
+                    <p weui-flex__item>发卡人：{{name}}</p>
+                    <p weui-flex__item>支付方式：{{payType}}</p>
+                    <p weui-flex__item>充值金额：{{money}}</p>
+                    <p weui-flex__item>车主电话：{{tel}}</p>
+                    <p weui-flex__item>车牌号码：{{carNum}}</p>
+                </div>
+                <div class="weui-btn-area">
+                <button v-on:click="goHome" class="weui-btn weui-btn_primary">完成</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+	Vue.http.options.emulateJSON = true;
+	var payInfo = new Vue({
+		el:"#successInfo",
+        data:{
+            tel:'',
+            carNum:'',
+            money:'',
+            payType:'',
+            name:'',
+            shopName:'',
+            url:decodeURI(location.href)
+        },
+		methods:{
+			goHome:function(){
+                window.location.href='home.html';
+			},
+            showPayInfo:function(){
+              var tmp = this.url.split("?")[1]
+              this.tel = tmp.split("&")[1].split("=")[1]
+              this.carNum = tmp.split("&")[2].split("=")[1]
+              this.shopName = tmp.split("&")[4].split("=")[1]
+              this.name = tmp.split("&")[5].split("=")[1]
+              this.money = tmp.split("&")[6].split("=")[1]
+              this.payType = tmp.split("&")[7].split("=")[1]
+              if(this.payType=='cash'){
+                this.payType = '发卡人收取现金'
+              }else if(this.payType=='wechat'){
+                this.payType = '微信充值'
+              }else{
+                this.payType = '支付宝充值'
+              }
+            }
+		}
+	});
+    payInfo.showPayInfo();
+</script>
+</body>
+</html>

@@ -1,0 +1,2463 @@
+[ 2017-01-16T10:07:03+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] xcsh.card.com/ [运行时间：0.788709s][吞吐率：1.27req/s] [内存消耗：1,127.91kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T10:07:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.218688s][吞吐率：4.57req/s] [内存消耗：1,418.86kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T10:08:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.033259s][吞吐率：30.07req/s] [内存消耗：1,419.02kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T10:09:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.032954s][吞吐率：30.35req/s] [内存消耗：1,419.02kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T10:10:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.033894s][吞吐率：29.50req/s] [内存消耗：1,419.02kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T11:08:45+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] xcsh.card.com/ [运行时间：0.318453s][吞吐率：3.14req/s] [内存消耗：1,127.91kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T11:08:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.288714s][吞吐率：3.46req/s] [内存消耗：1,513.31kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T11:10:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.079296s][吞吐率：12.61req/s] [内存消耗：1,513.72kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T11:10:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.044359s][吞吐率：22.54req/s] [内存消耗：1,513.48kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T11:11:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.037920s][吞吐率：26.37req/s] [内存消耗：1,513.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T11:12:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.040213s][吞吐率：24.87req/s] [内存消耗：1,513.96kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T11:25:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.060470s][吞吐率：16.54req/s] [内存消耗：1,513.72kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T12:04:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.061790s][吞吐率：16.18req/s] [内存消耗：1,418.63kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T12:04:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index1
+[ log ] xcsh.card.com/index1 [运行时间：0.040630s][吞吐率：24.61req/s] [内存消耗：1,127.98kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T12:04:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.035976s][吞吐率：27.80req/s] [内存消耗：1,418.43kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T12:05:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.041438s][吞吐率：24.13req/s] [内存消耗：1,418.43kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T12:07:57+08:00 ] 192.168.1.200 192.168.1.200 GET /membercard/tp5/public/index
+[ log ] 192.168.1.200/membercard/tp5/public/index [运行时间：0.045714s][吞吐率：21.88req/s] [内存消耗：1,418.42kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.200',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T12:15:32+08:00 ] 192.168.1.200 192.168.1.200 GET /membercard/tp5/public/
+[ log ] 192.168.1.200/membercard/tp5/public/ [运行时间：0.030473s][吞吐率：32.82req/s] [内存消耗：1,127.97kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T12:15:58+08:00 ] 192.168.1.200 192.168.1.200 GET /membercard/tp5/public/
+[ log ] 192.168.1.200/membercard/tp5/public/ [运行时间：0.057333s][吞吐率：17.44req/s] [内存消耗：1,418.09kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.200',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T12:40:06+08:00 ] 127.0.0.1 127.0.0.1 GET /create
+[ log ] xcsh.card.com/create [运行时间：0.089195s][吞吐率：11.21req/s] [内存消耗：1,449.20kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserToken',
+    2 => 'create',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:userId[D:\wamp\www\membercard\tp5\thinkphp\library\think\App.php:304]
+
+---------------------------------------------------------------
+[ 2017-01-16T12:40:29+08:00 ] 127.0.0.1 127.0.0.1 GET /create/userId/1
+[ log ] xcsh.card.com/create/userId/1 [运行时间：0.438429s][吞吐率：2.28req/s] [内存消耗：2,154.78kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserToken',
+    2 => 'create',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'userId' => '1',
+)
+[ info ] [ RUN ] app\index\controller\UserToken->create[ D:\wamp\www\membercard\tp5\application\index\controller\UserToken.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.152750s ] mysql:dbname=membercard;host=112.74.90.130;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `card_token_key` [ RunTime:0.018858s ]
+[ sql ] [ SQL ] SELECT * FROM `card_token_key` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.017471s ]
+
+---------------------------------------------------------------
+[ 2017-01-16T14:24:40+08:00 ] 127.0.0.1 127.0.0.1 GET /create/userId/1
+[ log ] xcsh.card.com/create/userId/1 [运行时间：0.536818s][吞吐率：1.86req/s] [内存消耗：1,132.94kb] [文件加载：31]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserToken',
+    2 => 'create',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'userId' => '1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T14:24:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.403877s][吞吐率：2.48req/s] [内存消耗：2,268.29kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026449s ] mysql:dbname=membercard;host=112.74.90.130;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `card_token_key` [ RunTime:0.017628s ]
+[ sql ] [ SQL ] SELECT * FROM `card_token_key` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.016360s ]
+
+---------------------------------------------------------------
+[ 2017-01-16T14:25:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.105814s][吞吐率：9.45req/s] [内存消耗：2,268.34kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024011s ] mysql:dbname=membercard;host=112.74.90.130;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `card_token_key` [ RunTime:0.017492s ]
+[ sql ] [ SQL ] SELECT * FROM `card_token_key` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.016348s ]
+
+---------------------------------------------------------------
+[ 2017-01-16T14:26:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.115527s][吞吐率：8.66req/s] [内存消耗：2,268.45kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027397s ] mysql:dbname=membercard;host=112.74.90.130;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `card_token_key` [ RunTime:0.019748s ]
+[ sql ] [ SQL ] SELECT * FROM `card_token_key` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.019350s ]
+
+---------------------------------------------------------------
+[ 2017-01-16T14:26:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.117006s][吞吐率：8.55req/s] [内存消耗：2,268.45kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029875s ] mysql:dbname=membercard;host=112.74.90.130;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `card_token_key` [ RunTime:0.021793s ]
+[ sql ] [ SQL ] SELECT * FROM `card_token_key` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.019654s ]
+
+---------------------------------------------------------------
+[ 2017-01-16T14:27:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.121501s][吞吐率：8.23req/s] [内存消耗：2,268.11kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028579s ] mysql:dbname=membercard;host=112.74.90.130;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `card_token_key` [ RunTime:0.020897s ]
+[ sql ] [ SQL ] SELECT * FROM `card_token_key` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.019485s ]
+
+---------------------------------------------------------------
+[ 2017-01-16T14:27:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.156792s][吞吐率：6.38req/s] [内存消耗：2,268.25kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023847s ] mysql:dbname=membercard;host=112.74.90.130;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `card_token_key` [ RunTime:0.017580s ]
+[ sql ] [ SQL ] SELECT * FROM `card_token_key` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.016274s ]
+
+---------------------------------------------------------------
+[ 2017-01-16T14:30:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.130610s][吞吐率：7.66req/s] [内存消耗：2,269.13kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030166s ] mysql:dbname=membercard;host=112.74.90.130;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `card_token_key` [ RunTime:0.022181s ]
+[ sql ] [ SQL ] SELECT * FROM `card_token_key` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.020072s ]
+
+---------------------------------------------------------------
+[ 2017-01-16T14:30:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.106617s][吞吐率：9.38req/s] [内存消耗：2,269.13kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024787s ] mysql:dbname=membercard;host=112.74.90.130;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `card_token_key` [ RunTime:0.017565s ]
+[ sql ] [ SQL ] SELECT * FROM `card_token_key` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.016160s ]
+
+---------------------------------------------------------------
+[ 2017-01-16T14:30:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.103079s][吞吐率：9.70req/s] [内存消耗：2,269.13kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025049s ] mysql:dbname=membercard;host=112.74.90.130;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `card_token_key` [ RunTime:0.018155s ]
+[ sql ] [ SQL ] SELECT * FROM `card_token_key` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.016772s ]
+
+---------------------------------------------------------------
+[ 2017-01-16T14:45:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.038916s][吞吐率：25.70req/s] [内存消耗：1,523.96kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T14:45:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] xcsh.card.com/index [运行时间：0.042289s][吞吐率：23.65req/s] [内存消耗：1,523.96kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T14:52:32+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.108799s][吞吐率：9.19req/s] [内存消耗：1,422.79kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T14:52:37+08:00 ] 127.0.0.1 127.0.0.1 POST /login
+[ log ] xcsh.card.com/login [运行时间：0.172324s][吞吐率：5.80req/s] [内存消耗：1,436.38kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '71',
+)
+[ info ] [ PARAM ] array (
+  'apiToken' => 'ad168babb251db6869c211b33c872ac5',
+  'name' => '20900314',
+  'email' => '232324223',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T15:20:50+08:00 ] 127.0.0.1 127.0.0.1 POST /login
+[ log ] xcsh.card.com/login [运行时间：0.043087s][吞吐率：23.21req/s] [内存消耗：1,347.04kb] [文件加载：36]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '71',
+)
+[ info ] [ PARAM ] array (
+  'apiToken' => 'ad168babb251db6869c211b33c872ac5',
+  'name' => '20900314',
+  'email' => '232324223',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T15:21:17+08:00 ] 127.0.0.1 127.0.0.1 POST /login
+[ log ] xcsh.card.com/login [运行时间：0.036044s][吞吐率：27.74req/s] [内存消耗：1,436.37kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '71',
+)
+[ info ] [ PARAM ] array (
+  'apiToken' => 'ad168babb251db6869c211b33c872ac5',
+  'name' => '20900314',
+  'email' => '232324223',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T15:21:24+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.105547s][吞吐率：9.47req/s] [内存消耗：1,581.91kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T15:21:28+08:00 ] 127.0.0.1 127.0.0.1 POST /login
+[ log ] xcsh.card.com/login [运行时间：0.187126s][吞吐率：5.34req/s] [内存消耗：1,649.77kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '69',
+)
+[ info ] [ PARAM ] array (
+  'apiToken' => '687f0088713cc3ddd2c882a8ddb0b1be',
+  'name' => '20900314',
+  'email' => '4646546',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T15:21:32+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.032433s][吞吐率：30.83req/s] [内存消耗：1,422.87kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:00:26+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.044702s][吞吐率：22.37req/s] [内存消耗：1,422.87kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:00:33+08:00 ] 127.0.0.1 127.0.0.1 POST /login
+[ log ] xcsh.card.com/login [运行时间：0.045082s][吞吐率：22.18req/s] [内存消耗：1,649.77kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '71',
+)
+[ info ] [ PARAM ] array (
+  'apiToken' => '687f0088713cc3ddd2c882a8ddb0b1be',
+  'name' => '20950768',
+  'email' => '232324223',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:11:06+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.052347s][吞吐率：19.10req/s] [内存消耗：1,576.17kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:13:38+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.051173s][吞吐率：19.54req/s] [内存消耗：1,576.55kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:20:56+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.049859s][吞吐率：20.06req/s] [内存消耗：1,576.38kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:28:00+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.048268s][吞吐率：20.72req/s] [内存消耗：1,576.71kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:28:00+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/vue.js
+[ log ] xcsh.card.com/static/js/vue.js [运行时间：0.053364s][吞吐率：18.74req/s] [内存消耗：1,128.55kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'vue.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:28:21+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.032906s][吞吐率：30.39req/s] [内存消耗：1,417.32kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:29:15+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.047517s][吞吐率：21.05req/s] [内存消耗：1,576.84kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:29:15+08:00 ] 127.0.0.1 127.0.0.1 GET /__MY_JS__/vue.js
+[ log ] xcsh.card.com/__MY_JS__/vue.js [运行时间：0.034611s][吞吐率：28.89req/s] [内存消耗：1,128.55kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '__MY_JS__',
+    1 => 'vue.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:29:18+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.037798s][吞吐率：26.46req/s] [内存消耗：1,417.28kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:29:18+08:00 ] 127.0.0.1 127.0.0.1 GET /__MY_JS__/vue.js
+[ log ] xcsh.card.com/__MY_JS__/vue.js [运行时间：0.029828s][吞吐率：33.53req/s] [内存消耗：1,128.69kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '__MY_JS__',
+    1 => 'vue.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:35:48+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.048682s][吞吐率：20.54req/s] [内存消耗：1,576.82kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:35:48+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/vue.js
+[ log ] xcsh.card.com/static/js/vue.js [运行时间：0.034647s][吞吐率：28.86req/s] [内存消耗：1,128.68kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'vue.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:36:56+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.038230s][吞吐率：26.16req/s] [内存消耗：1,576.99kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:37:04+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.040870s][吞吐率：24.47req/s] [内存消耗：1,576.82kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:37:05+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/vue.js
+[ log ] xcsh.card.com/static/js/vue.js [运行时间：0.029614s][吞吐率：33.77req/s] [内存消耗：1,128.68kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'vue.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:37:22+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.048340s][吞吐率：20.69req/s] [内存消耗：1,417.28kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:37:22+08:00 ] 127.0.0.1 127.0.0.1 GET /static/js/vue.js
+[ log ] xcsh.card.com/static/js/vue.js [运行时间：0.029428s][吞吐率：33.98req/s] [内存消耗：1,128.68kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'vue.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:40:19+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.044947s][吞吐率：22.25req/s] [内存消耗：1,576.98kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:40:23+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.037123s][吞吐率：26.94req/s] [内存消耗：1,417.31kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:40:23+08:00 ] 127.0.0.1 127.0.0.1 GET /__MY_JS__/vue.js
+[ log ] xcsh.card.com/__MY_JS__/vue.js [运行时间：0.033936s][吞吐率：29.47req/s] [内存消耗：1,128.80kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '__MY_JS__',
+    1 => 'vue.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:46:03+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.047977s][吞吐率：20.84req/s] [内存消耗：1,577.05kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:46:03+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/style.css
+[ log ] xcsh.card.com/static/css/style.css [运行时间：0.034071s][吞吐率：29.35req/s] [内存消耗：1,128.74kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'style.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:46:25+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.040540s][吞吐率：24.67req/s] [内存消耗：1,577.05kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:46:25+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/style.js
+[ log ] xcsh.card.com/static/css/style.js [运行时间：0.030746s][吞吐率：32.52req/s] [内存消耗：1,128.71kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'style.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:46:50+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.038855s][吞吐率：25.74req/s] [内存消耗：1,577.03kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:46:51+08:00 ] 127.0.0.1 127.0.0.1 GET /__MY_JS__/static/css/style.js
+[ log ] xcsh.card.com/__MY_JS__/static/css/style.js [运行时间：0.028109s][吞吐率：35.58req/s] [内存消耗：1,128.80kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '__MY_JS__',
+    1 => 'static',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:51:30+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.148594s][吞吐率：6.73req/s] [内存消耗：1,479.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Config' not found[D:\wamp\www\membercard\tp5\application\index\controller\Index.php:54]
+
+---------------------------------------------------------------
+[ 2017-01-16T16:52:27+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.034771s][吞吐率：28.76req/s] [内存消耗：1,417.74kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:52:27+08:00 ] 127.0.0.1 127.0.0.1 GET /public/static/js/static/css/style.js
+[ log ] xcsh.card.com/public/static/js/static/css/style.js [运行时间：0.034884s][吞吐率：28.67req/s] [内存消耗：1,129.09kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:53:56+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.046158s][吞吐率：21.66req/s] [内存消耗：1,417.76kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:53:56+08:00 ] 127.0.0.1 127.0.0.1 GET /public/static/js/static/css/style.js
+[ log ] xcsh.card.com/public/static/js/static/css/style.js [运行时间：0.033936s][吞吐率：29.47req/s] [内存消耗：1,129.20kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:55:04+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.040842s][吞吐率：24.48req/s] [内存消耗：1,417.14kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:55:05+08:00 ] 127.0.0.1 127.0.0.1 GET /public/static/js/static/css/style.js
+[ log ] xcsh.card.com/public/static/js/static/css/style.js [运行时间：0.027870s][吞吐率：35.88req/s] [内存消耗：1,129.20kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:55:46+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.048226s][吞吐率：20.74req/s] [内存消耗：1,574.10kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:55:46+08:00 ] 127.0.0.1 127.0.0.1 GET /public/static/js/vue.js
+[ log ] xcsh.card.com/public/static/js/vue.js [运行时间：0.031204s][吞吐率：32.05req/s] [内存消耗：1,128.48kb] [文件加载：30]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xcsh.card.com/login',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T16:56:47+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.047685s][吞吐率：20.97req/s] [内存消耗：1,574.13kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T17:45:00+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.572818s][吞吐率：1.75req/s] [内存消耗：1,417.13kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T17:49:22+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.091685s][吞吐率：10.91req/s] [内存消耗：1,574.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T17:51:58+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：0.049597s][吞吐率：20.16req/s] [内存消耗：1,574.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-01-16T18:04:40+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ log ] xcsh.card.com/login [运行时间：2.214722s][吞吐率：0.45req/s] [内存消耗：1,417.13kb] [文件加载：37]
+[ info ] [ LANG ] D:\wamp\www\membercard\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xcsh.card.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6933178368',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\wamp\www\membercard\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\membercard\tp5\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

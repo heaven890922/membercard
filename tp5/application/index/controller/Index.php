@@ -28,7 +28,8 @@ class Index extends Common
         $ret =$cardOrder->createOrder($data);
         p($ret);*/
         //p(build_order_no());
-        pJson(make_qrcode('http://www.baidu.com', 'testQR4', $size = 10, $level = "L"));
+        //pJson(make_qrcode('http://www.baidu.com', 'testQR4', $size = 10, $level = "L"));
+        //$this->errorInfo('我是错误测试','错误测试是我');
     }
 
     public function login()

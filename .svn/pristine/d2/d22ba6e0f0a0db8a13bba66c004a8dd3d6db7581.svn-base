@@ -1,0 +1,35 @@
+/**
+ * Created by PC on 2017-02-04.
+ */
+(function ($) {
+    $.fn.extend({
+        "countDown": function (options) {
+            var opts = $.extend({}, defaults, options);
+            return this.each(function () {
+                var $this = $(this);
+                var minute = 0;
+                var second = 0;
+                var test = $this.parent('button');
+                test.removeAttr("disabled");
+                window.setInterval(function () {
+                    if (opts.duration > 0) {
+                        minute = Math.floor(opts.duration / 60);
+                        second = Math.floor(opts.duration) - minute * 60;
+                        if (minute <= 9) minute = '0' + minute;
+                        if (second <= 9) second = '0' + second;
+                        $this.html('(' + minute + "分" + second + "秒)");
+                    } else {
+                        $this.html("(00分00秒)");
+
+                        test.attr({"disabled":"disabled"}).addClass('weui-btn_disabled');
+                    }
+                    opts.duration--;
+                }, 1000);
+            });
+        }
+    });
+    //默认参数
+    var defaults = {
+        duration: 600
+    };
+})(window.jQuery);

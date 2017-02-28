@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>校验客户信息</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<link rel="stylesheet" href="style/css/weui.css"/>
+	<script src="style/js/vue.js"></script>
+	<script src="style/js/vue-resource.js"></script>
+</head>
+<body ontouchstart>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">
+        </h1>
+    </div>
+    <div class="page__bd page__bd_spacing" id="checkCustomerInfo">
+        <ul>
+            <li>
+                <div class="weui-cell">
+                    <p class="weui-flex__item" style="text-align: center">输入购卡人信息</p>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label class="weui-label">手机号码</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" type="tel" placeholder="请输入手机号码" v-model="item.tel"/>
+                    </div>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label class="weui-label">车牌号码</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input"  placeholder="请输入车牌号码" v-model="item.carNum"/>
+                    </div>
+                </div>
+                <div class="weui-cell">
+                    <p weui-flex__item style="color: red;text-align: center;">{{result.msg}}</p>
+                </div>
+                <div class="weui-btn-area">
+                    <button v-on:click="getData" class="weui-btn weui-btn_primary">下一步</button>
+                </div>
+            </li>
+        </ul>
+        <div class="weui-cells__title">
+        	<p weui-flex__item>充值提示：</p>
+        	<p weui-flex__item>充值前车主先在小车生活账户中绑定自己的车牌，电话要输入小车生活注册账户的电话，与车牌一致才能充值成功。</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	Vue.http.options.emulateJSON = true;
+	var checkInfo = new Vue({
+		el:"#checkCustomerInfo",
+		data:{
+			result:'',
+            url:decodeURI(location.href),
+			apiUrl:'http://120.76.251.222:9980/membercard/tp5/public/index.php/qrcode/check',
+			item:{'apiKey':'e0684fed76aaa6611f436a381491687e'}
+		},
+		methods:{
+			getData:function(){
+				this.$http.post(this.apiUrl,this.item).then((response)=>{
+					if(response.data.code==200){
+						var customerID = response.data.customerID
+                        var tel = this.item.tel
+                        var carNum = this.item.carNum
+						this.result = ''
+                        var tmp = this.url.split("?")[1]
+						window.location.href=encodeURI('payInfo.html?customerID='+customerID+'&tel='+tel+'&carNum='+carNum+'&'+tmp);
+					}else{
+						this.result = response.data
+					}
+				})
+			}
+		}
+	})
+</script>
+</body>
+</html>

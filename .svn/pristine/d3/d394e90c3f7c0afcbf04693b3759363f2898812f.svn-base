@@ -1,0 +1,23 @@
+<?php
+namespace traits\controller;
+use think\Db;
+/**
+ * Created by PhpStorm.
+ * User: PC
+ * Date: 2017-01-18
+ * Time: 10:49
+ */
+
+
+trait TokenCheck {
+    public function checkKey($key)
+    {
+        $check = Db::table("mc_api_key")->where('api_key', $key)->where('status',1)->find();
+        if (!empty($check)) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+}

@@ -77,7 +77,7 @@ class ShopAccount extends Model
                 'typeID' => 1,
                 'beforeMoney' => $this->balance,
                 'afterMoney' => $afterMoney,
-                'remark' => '会员卡消费',
+                'remark' => '会员卡消费支出',
                 'shopid' => $this->shopID,
                 'busTable' => 'mc_consume_order',
                 'busid' => $orderID,

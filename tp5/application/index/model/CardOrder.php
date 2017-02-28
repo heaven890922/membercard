@@ -2,6 +2,7 @@
 
 namespace app\index\model;
 
+use think\Db;
 use think\Model;
 
 class CardOrder extends Model
@@ -26,7 +27,7 @@ class CardOrder extends Model
         $arr = ['discount' => '0', 'remarks' => ''];
         $data = array_merge($arr, $data);
         //检测必要字段是否齐全
-        if (!isset($data['customerID']) || !isset($data['shopID']) || !isset($data['money']) || !isset($data['methodID'])) {
+        if (!isset($data['customerID']) || !isset($data['shopID']) || !isset($data['money']) || !isset($data['methodID']) || !isset($data['carNum'])) {
             return ['state' => false, 'code' => 401];
         }
         $customerID = (int)$data['customerID'];
@@ -35,6 +36,7 @@ class CardOrder extends Model
         $payType = (int)$data['methodID'];
         $discount = $data['discount'];
         $remarks = $data['remarks'];
+        $carNum = $data['carNum'];
         unset($data);
         //判断是否100倍数
         if (($money % 100) != 0) {
@@ -48,6 +50,9 @@ class CardOrder extends Model
             return ['state' => false, 'code' => $user->chargeMsgCode];
         }
         $shop = Shop::get(['shopID' => $shopID]);
+        //p($shop['name']);
+        $name = $shop['name'];
+        $phone = $shop['phone'];
         //检查商户额度是否充足
         if ($shop['remainQuota'] < $money) {
             return ['state' => false, 'code' => 621];
@@ -60,16 +65,25 @@ class CardOrder extends Model
             'cardOrderNum' => $orderNum,
             'customerID' => $customerID,
             'shopID' => $shopID,
+            'name' => $name,
+            'phone' => $phone,
             'quota' => $money,
             'realNeedPay' => $money - $discount,
             'orderState' => 'NEW',
             'payState' => 'N',
             'payType' => $payType,
             'discount' => $discount,
-            'remark' => $remarks,
-            'createTime' => $time
+            'remarks' => $remarks,
+            'createTime' => $time,
+            'carNum' => $carNum
         ]);
         $this->save();
         return ['state' => true, 'code' => 200, 'orderNum' => $orderNum];
+    }
+
+    public function getOrder($orderNum)
+    {
+        $data = Db::query("SELECT o.orderState,o.payState,o.quota,sc.tel,c.`name`,s.shopname,m.payMethodName,ca.carNum FROM mc_card_order o JOIN mc_shop_config c ON o.shopID = c.shopID  AND o.cardOrderNum = '$orderNum' JOIN ".JFYCARLIFE.".sh_coustom sc ON sc.coustomid = o.customerID JOIN ".JFYCARLIFE.".sh_car ca ON o.customerID = ca.coustomID JOIN ".JFYCARLIFE.".sh_shop s ON o.shopID =s.shopid JOIN mc_pay_method m ON o.payType = m.id LIMIT 1");
+        return $data;
     }
 }

@@ -154,14 +154,15 @@ class User
         if(!is_numeric($money) || !isset($payPwd) || !is_numeric($shopID)){
             return ['state' => false, 'code' => 402];
         }
-        //检测支付是否受限制
-        $payCheckRet = $this->checkPayLimit($money);
-        if (!$payCheckRet) {
-            return ['state' => false, 'code' => $this->payMsgCode];
-        }
-        //检测密码是否正确
+        //检查密码是否正确
         $pwdRet = $this->checkPwd($payPwd);
-        if ($pwdRet['state']) {
+        if (!$pwdRet['state']) {
+            return $pwdRet;
+        }
+
+        //检查金额是否受限制
+        $payCheckRet = $this->checkPayLimit($money);
+        if ($payCheckRet) {
             $orderNum = build_order_no($this->userID);
 
             // 创建消费订单对象
@@ -184,6 +185,9 @@ class User
                         }
                         //卡片支付金额并记录log，发卡商户扣除可提现并记录detail
                         $card->cardPay($thisToPay, $orderID);
+                        //恢复发卡商户可发卡余额
+                        $shop = Shop::get(['shopID' => $items['shopID']]);
+                        $shop->increaseRemainQuota($money);
                     } else {
                         break;
                     }
@@ -193,8 +197,7 @@ class User
                 //创建商户对象
                 $shopAccount = ShopAccount::get(['shopID' => $shopID]);
                 //给提供服务商户增加可提现余额
-                $shopAccount->increaseBalance($money, $orderID, 'mc_consume_order', 'CARD_PAY', '会员卡消费');
-
+                $shopAccount->increaseBalance($money, $orderID, 'mc_consume_order', 'CARD_PAY', '会员卡消费收入');
                 DB::commit();
                 return ['state' => true, 'code' => 200, 'orderNum' => $orderNum];
             } catch (\Exception $e) {
@@ -203,7 +206,7 @@ class User
                 return ['state' => false, 'code' => 704];
             }
         } else {
-            return $pwdRet;
+            return ['state' => false, 'code' => $this->payMsgCode];
         }
 
     }
